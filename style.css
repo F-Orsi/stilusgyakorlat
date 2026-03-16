@@ -18,7 +18,7 @@
 /* --- GOOGLE FONTS IMPORTÁLÁS ---
    Cseréld ki a saját választásodra!
    -------------------------------- */
-/* @import url('https://fonts.googleapis.com/css2?family=VALASZD+KI&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Atma:wght@300;400;500;600;700&family=Climate+Crisis:YEAR@1979&family=Handjet:wght,ELSH@100..900,2&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
 
 
 /* --- ALAP BEÁLLÍTÁSOK --- */
@@ -43,12 +43,32 @@ body {
 /* --- OLDAL KERET --- */
 .oldal-keret {
     /* Az egész oldal kerete / szélessége */
+
+    margin: 50px 50px 50px 50px;
+
 }
 
 
 /* --- FEJLÉC --- */
-.fejlec {
+
+
+.fejlec {}
+
+.fejlec h1 {
     /* Háttér, padding, szöveg igazítás */
+    border: 1px solid #333333;
+    border-radius: 20pt;
+    text-align: center;
+    font-size: 50pt;
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "YEAR" 1979;
+
+
+
 }
 
 .fooldal-cim {
